@@ -1,0 +1,186 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(/Roboto/Roboto-Light.ttf);
+}
+
+body {
+  font-family: "Roboto";
+}
+
+.headerDiv {
+  background-color: #1f2937;
+  padding: 2%;
+}
+
+.topHeaderDiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.middleHeaderDiv {
+  margin-top: 4%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2%;
+}
+
+.headerTextDiv {
+  margin-left: 15%;
+}
+
+.imagesDiv {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.quoteDiv {
+  background-color: #e5e7eb;
+  padding: 2%;
+}
+
+.actionDiv {
+  background-color: #3882f6;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 4%;
+  border-radius: 7px;
+  color: #e5e7eb;
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.textAndButtonDiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.finalDiv {
+  background-color: #1f2937;
+  margin-top: 4%;
+  padding: 2%;
+}
+
+.headerLogo {
+  font-size: 24px;
+  color: #f9faf8;
+  margin-left: 15%;
+}
+
+nav {
+  float: right;
+  padding: 2px;
+  margin-right: 15%;
+  margin-top: 1%;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-right: 15px;
+  color: #e5e7eb;
+}
+
+a {
+  color: #e5e7eb;
+  text-decoration: none;
+}
+
+a :visited {
+  color: #e5e7eb;
+  text-decoration: none;
+}
+
+.mainText {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+  width: 500px;
+  margin-bottom: 1px;
+}
+
+.bigImage {
+  width: 35%;
+  height: 230px;
+  margin-right: 15%;
+  margin-top: 2%;
+}
+
+.underMainText {
+  width: 600px;
+  color: #f9faf8;
+}
+
+.buttonA {
+  border-radius: 7px;
+  width: 100px;
+  color: #f9faf8;
+  background-color: #3882f6;
+  height: 30px;
+}
+
+.textAboveImage {
+  text-align: center;
+  color: #1f2937;
+  font-weight: 900;
+  margin-top: 2%;
+}
+
+.fourImages {
+  border-radius: 7px;
+  width: 150px;
+  height: 150px;
+}
+
+.fourImagesCaption {
+  width: 150px;
+  height: 150px;
+  color: darkslategray;
+  text-align: justify;
+}
+
+.quoteText {
+  font-size: 36px;
+  font-style: italic;
+  margin-left: 25%;
+  margin-right: 25%;
+  font-weight: 300;
+}
+
+.authorText {
+  font-size: 26px;
+  font-weight: 700;
+  margin-left: 63%;
+}
+
+.signUpButton {
+  border-radius: 7px;
+  width: 100px;
+  color: #f9faf8;
+  background-color: #3882f6;
+  height: 30px;
+  border-color: #f9faf8;
+  margin-top: 5%;
+}
+
+.actionText {
+  margin-bottom: 0px;
+}
+
+.callToActionText {
+  margin-top: 0px;
+}
+
+.copyRight {
+  text-align: center;
+  color: white;
+}

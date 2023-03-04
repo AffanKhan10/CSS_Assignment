@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Questions</title>
+    <link rel="stylesheet" type="text/css" href="task1Style.css" />
+  </head>
+  <body>
+    <h1>CSS Questions</h1>
+    <a href="/index.html"> Home Page </a>
+    <h2>
+      1. What are the main differences between external, internal, and inline
+      CSS?
+    </h2>
+    <p>
+      External CSS is defined in a separate file and linked to the HTML
+      document, while internal CSS is defined within the head section of the
+      HTML document. Inline CSS is defined within a specific HTML tag using the
+      style attribute. External CSS is more efficient for styling larger
+      websites as it allows for greater consistency and easier maintenance,
+      while internal and inline CSS are more suitable for smaller projects or
+      individual tags.
+    </p>
+
+    <h2>2. What is the syntax for class and ID selectors?</h2>
+    <p>
+      The syntax for a class selector is a period followed by the class name,
+      e.g. .classname. The syntax for an ID selector is a pound sign followed by
+      the ID name, e.g. #idname.
+    </p>
+
+    <h2>3. How would you apply a single rule to two different selectors?</h2>
+    <p>
+      You can separate the selectors with a comma, e.g. selector1, selector2 {
+      rule: value; }
+    </p>
+
+    <h2>
+      4. Given an element that has an id of title and a class of primary, how
+      would you use both attributes for a single rule?
+    </h2>
+    <p>#title.primary { rule: value; }</p>
+
+    <h2>5. What does the descendant combinator do?</h2>
+    <p>
+      The descendant combinator, represented by a space between selectors,
+      selects elements that are descendants of another element. For example,
+      "parent selector descendant selector" selects all descendants of the
+      parent selector.
+    </p>
+
+    <h2>
+      6. Between a rule that uses one class selector and a rule that uses three
+      type selectors, which rule has the higher specificity?
+    </h2>
+    <p>
+      The rule that uses the class selector has higher specificity than the rule
+      that uses three type selectors.
+    </p>
+
+    <h2>
+      7. From inside to outside, what is the order of box-model properties?
+    </h2>
+    <p>
+      The order of box-model properties from inside to outside is padding,
+      border, margin.
+    </p>
+
+    <h2>8. What does the box-sizing CSS property do?</h2>
+    <p>
+      The box-sizing property determines how the width and height of an element
+      is calculated. The default value is content-box, which only includes the
+      content area in the width and height calculation. The border-box value
+      includes the padding and border in the calculation, resulting in a box
+      with a fixed size.
+    </p>
+
+    <h2>
+      9. What is the difference between the standard and alternative box model?
+    </h2>
+    <p>
+      The standard box model calculates the width and height of an element based
+      on the content box, padding, border, and margin. The alternative box
+      model, using the box-sizing property with a value of border-box,
+      calculates the width and height of an element based on the content box and
+      padding, but includes the border and margin in the overall size of the
+      box.
+    </p>
+
+    <h2>
+      10. Would you use margin or padding to create more space between 2
+      elements?
+    </h2>
+    <p>You would use margin to create space between two elements.</p>
+
+    <h2>
+      11. Would you use margin or padding to create more space between the
+      contents of an element and its border?
+    </h2>
+    <p>
+      You would use padding to create space between the contents of an element
+      and its border.
+    </p>
+
+    <h2>
+      12. Would you use margin or padding if you wanted two elements to overlap
+      each other?
+    </h2>
+    <p>
+      If you want two elements to overlap each other, you would use negative
+      margin. By applying a negative margin to one or both elements, you can
+      make them overlap. Padding, on the other hand, adds space between an
+      element's content and its border, and would not make two elements overlap.
+    </p>
+    <h2>
+      13. What is the difference between a block element and an inline element?
+    </h2>
+    <p>
+      Block elements take up the full width available and create a new line
+      after the element, while inline elements only take up the necessary width
+      for the content and do not create a new line after the element.
+    </p>
+
+    <h2>
+      14. What is the difference between an inline element and an inline-block
+      element?
+    </h2>
+    <p>
+      An inline-block element has characteristics of both a block and inline
+      element. It takes up only the necessary width for the content like an
+      inline element, but also allows for height and width properties to be set
+      like a block element.
+    </p>
+
+    <h2>15. Is an h1 block or inline?</h2>
+    <p>An h1 element is a block element.</p>
+
+    <h2>16. Is button block or inline?</h2>
+    <p>
+      A button element can be either a block or inline element depending on the
+      CSS styling applied.
+    </p>
+
+    <h2>17. Is div block or inline?</h2>
+    <p>A div element is a block element.</p>
+
+    <h2>18. Is span block or inline?</h2>
+    <p>A span element is an inline element.</p>
+
+    <h2>19. What’s the difference between a flex container and a flex item?</h2>
+    <p>
+      A flex container is an element that contains flex items and is styled with
+      the display:flex property. A flex item is an element that is a direct
+      child of a flex container and can be styled using flex properties such as
+      flex-grow, flex-shrink, and flex-basis.
+    </p>
+
+    <h2>20. How do you create a flex item?</h2>
+    <p>
+      To create a flex item, simply include an element as a direct child of a
+      container with the display:flex property.
+    </p>
+
+    <h2>21. What are the 3 values defined in the shorthand flex property?</h2>
+    <p>
+      The shorthand flex property includes the values for flex-grow,
+      flex-shrink, and flex-basis. The values can be defined in the following
+      format: flex: [flex-grow] [flex-shrink] [flex-basis].
+    </p>
+
+    <h2>
+      22. How do you make flex items arrange themselves vertically instead of
+      horizontally?
+    </h2>
+    <p>
+      You can use the flex-direction property set to column to make flex items
+      arrange themselves vertically.
+    </p>
+
+    <h2>23. What is the difference between justify-content and align-items?</h2>
+    <p>
+      justify-content aligns flex items horizontally, while align-items aligns
+      flex items vertically.
+    </p>
+
+    <h2>
+      24. How do you use flexbox to completely center a div inside a flex
+      container?
+    </h2>
+    <p>
+      You can center a div inside a flex container by setting the flex
+      container's properties to display:flex, justify-content:center, and
+      align-items:center.
+    </p>
+
+    <h2>
+      25. What’s the difference between justify-content: space-between and
+      justify-content: space-around?
+    </h2>
+    <p>
+      The justify-content: space-between property evenly spaces flex items with
+      no space at the beginning or end. The justify-content: space-around
+      property evenly spaces flex items with equal space around each item,
+      including space at the beginning and end.
+    </p>
+  </body>
+</html>
